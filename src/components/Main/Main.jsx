@@ -81,10 +81,10 @@ const Main = () => {
                         <input onChange={(e) => setInput(e.target.value)} value={input} type="text" placeholder="Enter a prompt here" />
 
                         <div>
-                           
-                            {input? <img onClick={() => onSent()} src={assets.send_icon} alt="" />
-                            :null}
-                           
+
+                            {input ? <img onClick={() => onSent()} src={assets.send_icon} alt="" />
+                                : null}
+
                         </div>
                     </div>
                     <p className="bottom-info">
